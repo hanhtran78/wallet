@@ -1,0 +1,15 @@
+*.bin
+*.iml
+*.ttf
+*.json
+*.dex
+*.class
+*.properties
+app/build/
+gradle/
+build/
+gradlew
+gradlew.bat
+.idea/
+app/proguard-rules.pro
+My Wallet Appication - Document.pdf

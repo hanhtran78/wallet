@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Title-->
+    <string name="title_app_name">MY WALLET APP</string>
+    <string name="title_login">LOGIN</string>
+    <string name="title_wallet_manager">WALLET MANAGER</string>
+    <string name="title_add_new_item">ADD NEW</string>
+    <string name="title_detail_report">DETAIL REPORT</string>
+    <string name="title_edit_item">EDIT</string>
+    <string name="title_enter_your_passcode">ENTER YOUR PASSCODE</string>
+    <string name="title_set_new_passcode">SET NEW PASSCODE</string>
+    <string name="title_confirm_passcode">CONFIRM YOUR PASSCODE</string>
+    <string name="title_summary_report">SUMMARY</string>
+
+    <!--Message-->
+    <string name="msg_login_fail">Your passcode is incorrect!</string>
+    <string name="msg_login_success">Login success</string>
+    <string name="msg_confirm_passcode_fail">Confirm code is incorrect!</string>
+    <string name="msg_input_values_error">Value is very large!</string>
+    <string name="msg_not_input_value">Yet input value of item!</string>
+    <string name="msg_add_new_success">Add new item success!</string>
+    <string name="msg_add_new_fail">Add new item fail!</string>
+    <string name="msg_update_success">Update item success!</string>
+    <string name="msg_update_fail">Update item fail!</string>
+    <string name="msg_show_report_month">No data to show!</string>
+
+    <string name="text_income">Income</string>
+    <string name="text_expense">Expense</string>
+    <string name="text_note">Note</string>
+    <string name="text_date">Date</string>
+    <string name="text_category">Category</string>
+    <string name="text_balance">Balance</string>
+    <string name="text_hint_note">Please input note</string>
+
+
+    <!--Keyboard-->
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="_comma">,</string>
+    <string name="ok_key">OK</string>
+</resources>

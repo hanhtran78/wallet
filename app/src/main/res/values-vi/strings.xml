@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Title-->
+    <string name="title_app_name">VÍ CỦA TÔI</string>
+    <string name="title_login">ĐĂNG NHẬP</string>
+    <string name="title_wallet_manager">QUẢN LÝ VÍ</string>
+    <string name="title_add_new_item">THÊM MỚI</string>
+    <string name="title_detail_report">BÁO CÁO CHI TIẾT</string>
+    <string name="title_edit_item">CHỈNH SỬA</string>
+    <string name="title_enter_your_passcode">NHẬP PASSWORD CỦA BẠN</string>
+    <string name="title_set_new_passcode">ĐẶT PASSWORD MỚI</string>
+    <string name="title_confirm_passcode">XÁC NHẬN PASSWORD</string>
+    <string name="title_summary_report">THỐNG KÊ</string>
+
+    <!--Message-->
+    <string name="msg_login_fail">Sai Password</string>
+    <string name="msg_login_success">Đăng nhập thành công</string>
+    <string name="msg_confirm_passcode_fail">Xác nhận thất bại!</string>
+    <string name="msg_input_values_error">Giá trị quá lớn!</string>
+    <string name="msg_not_input_value">Chưa nhập giá trị!</string>
+    <string name="msg_add_new_success">Thêm mới ITEM thành công!</string>
+    <string name="msg_add_new_fail">Thêm mới ITEM lỗi!</string>
+    <string name="msg_update_success">Cập nhật thành công!</string>
+    <string name="msg_update_fail">Cập nhật thất bại!</string>
+    <string name="msg_show_report_month">Không có dữ liệu để hiển thị!</string>
+
+    <string name="text_income">Thu vào</string>
+    <string name="text_expense">Chi ra</string>
+    <string name="text_note">Ghi chú</string>
+    <string name="text_date">Ngày</string>
+    <string name="text_category">Loại</string>
+    <string name="text_balance">Số dư</string>
+    <string name="text_hint_note">Nhập ghi chú</string>
+
+    <!--Keyboard-->
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="_comma">,</string>
+    <string name="ok_key">OK</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/keyboard_divider"
+    android:orientation="horizontal"
+    android:padding="1dp"
+    android:showDividers="beginning|middle|end"
+    android:weightSum="12">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:divider="@drawable/keyboard_divider"
+            android:orientation="vertical"
+            android:showDividers="beginning|middle|end">
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/key_1"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_one" />
+
+                <TextView
+                    android:id="@+id/key_2"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_two" />
+
+                <TextView
+                    android:id="@+id/key_3"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_three" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/key_4"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_four" />
+
+                <TextView
+                    android:id="@+id/key_5"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_five" />
+
+                <TextView
+                    android:id="@+id/key_6"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_six" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/key_7"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_seven" />
+
+                <TextView
+                    android:id="@+id/key_8"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_eight" />
+
+                <TextView
+                    android:id="@+id/key_9"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_nine" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            style="@style/keyboard_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:divider="@drawable/keyboard_divider"
+            android:orientation="horizontal"
+            android:showDividers="beginning|middle"
+            android:weightSum="9">
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+
+                <!--android:layout_weight="6">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/key_comma"-->
+                    <!--style="@style/keyboard_button"-->
+                    <!--android:text="@string/_comma" />-->
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/key_0"
+                    android:showDividers="beginning|middle"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_zero" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/colorPrimary"
+        android:divider="@drawable/keyboard_divider"
+        android:orientation="vertical"
+        android:showDividers="beginning|middle|end"
+        android:weightSum="8">
+
+        <LinearLayout
+            style="@style/keyboard_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/key_backspace"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_clear" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/key_ok"
+                style="@style/keyboard_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ok_key" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
